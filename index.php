@@ -1,3 +1,3 @@
 <?php 
-header('Location: http://localhost/Botser/login.php');
+header('Location: http://localhost:8080/Botser/login.php');
 ?>

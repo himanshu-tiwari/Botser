@@ -2,7 +2,7 @@
 require 'vendor/autoload.php';
 session_start();
 if(!isset($_SESSION['fb_access_token'])){
-	header('Location: http://localhost/Botser/login.php');
+	header('Location: http://localhost:8080/Botser/login.php');
 }
 // echo $_SESSION['fb_access_token'];
 $fb = new Facebook\Facebook([
